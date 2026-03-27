@@ -1,4 +1,4 @@
-# 🌤 Weather CLI App
+#Weather CLI App
 
 A Python command-line app that fetches real-time weather data for any city using the OpenWeatherMap API.
 
