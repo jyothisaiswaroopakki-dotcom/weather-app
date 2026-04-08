@@ -3,7 +3,6 @@ import requests
 API_KEY = "2b65fc1c73c852a55cbeb109028b006e"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
-
 def get_weather(city):
     params = {"q": city,"appid": API_KEY,"units": "metric"}
     response = requests.get(BASE_URL, params=params) 
